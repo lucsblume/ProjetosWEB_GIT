@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="D:\Projetos Pessoais Web\Projeto TrailerNow\Icons\Cinema.ico" type="image/x-icon">
+    <title>Joker - Trailer | Ui Design</title>
+</head>
+<body>
+    
+    <header>
+        <a href="#" class="logo">
+            <img src="D:\Projetos Pessoais Web\Projeto TrailerNow\assets\logo.png" >
+        </a>
+        
+        <div class="toggle">
+            <img src="D:\Projetos Pessoais Web\Projeto TrailerNow\assets\toggle.png" >
+        </div>
+         
+    </header>
+    
+    <div class="banner">
+        <div class="content">
+            <h2>Ponha um <span>sorriso </span>na cara</h2>
+                 <p>Isolado, intimidado e desconsiderado pela sociedade, o fracassado comediante Arthur Fleck inicia seu caminho como uma mente criminosa 
+                     após assassinar três homens em pleno metrô. 
+                     Sua ação inicia um movimento popular
+                      contra a elite de Gotham City, da qual Thomas Wayne é seu maior representante.</p>
+
+                <a href="#" class="play" onclick="toggle()" ><img src="D:\Projetos Pessoais Web\Projeto TrailerNow\assets\play.png">Assista ao Trailer</a>
+
+                <div class="slide"></div>
+
+                <ul class="sci">
+                    <li><a href="#"><img src="D:\Projetos Pessoais Web\Projeto TrailerNow\assets\facebook.png" ></a></li>
+                    <li><a href="#"><img src="D:\Projetos Pessoais Web\Projeto TrailerNow\assets\instagram.png" ></a></li>
+                    <li><a href="#"><img src="D:\Projetos Pessoais Web\Projeto TrailerNow\assets\twitter.png" ></a></li>
+                </ul>
+        </div>
+    </div>
+
+    <div class="trailer">
+        <video src="coringa trailer.mp4" controls = "true"></video>
+        <img src="D:\Projetos Pessoais Web\Projeto TrailerNow\assets\close.png" class="close" onclick="toggle()">
+    </div>
+
+
+    <script type="text/javascript">
+
+    function toggle(){ // função que ao clicar na tag play abre o trailer e ao clicar no close fecha o trailer
+
+        var trailer = document.querySelector('.trailer');
+        var video = document.querySelector('video');
+        trailer.classList.toggle('active')
+        video.currentTime = 0;
+        video.pause();
+    }
+
+    </script>
+
+</body>
+</html>
