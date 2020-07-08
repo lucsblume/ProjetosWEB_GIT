@@ -64,3 +64,13 @@ body{
     padding: 12px 0;
     margin-top: 20px;
 }
+
+
+#bitcoin-Image{
+    position: relative;
+    left: 58%;
+    top: 5vw;
+    display: flex;
+    filter: blur(4px);
+    
+}
