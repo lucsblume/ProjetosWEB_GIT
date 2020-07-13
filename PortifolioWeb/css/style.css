@@ -13,7 +13,7 @@
 :root{ /* Fontes Globais */
 --body-font: 'Poppins', sans-serif;
 --big-font-size: 2rem;
---h2-font-size: 1.25rem;
+--h2-font-size: 1.50rem;
 --normal-font-size: 0.938rem;
 }
 
@@ -101,7 +101,7 @@ img{
 .section-title::after{
     position: absolute;
     content: "";
-    width: 64px;
+    width: 80px;
     height: 0.18rem;
     left: 0;
     right: 0;
@@ -244,7 +244,7 @@ img{
 .home__social-icon{
     width: max-content;
     margin-bottom: var(--mb-2);
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: var(--seconde-color);
 }
 
@@ -484,6 +484,10 @@ color: var(--first-color);
 
     .home{
         height: 100vh;
+    }
+
+    .home__title{
+        font-size: 3rem ;
     }
 
     .home__data{
