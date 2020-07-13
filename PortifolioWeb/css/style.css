@@ -358,10 +358,20 @@ color: var(--first-color);
     width: 90%;
 }
 
+.skills__git{
+    width: 95%;
+}
+
+.skills__angular{
+    width: 80%;
+}
+
 .skills__img{
     border-radius: .5rem;
     
 }
+
+
 
 
 /*------------ TRABALHOS ------------*/
