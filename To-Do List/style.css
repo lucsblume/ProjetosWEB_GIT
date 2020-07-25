@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Francois One', sans-serif; ;
+
+    box-sizing: border-box;
+
+}
+
+body{
+    background: #4b6cb7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.container{
+    max-width: 880px;
+    margin: auto;
+    padding: 10px;
+    
+}
+
+.textb{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #FFF;
+    background: none;
+    padding: 10px;
+    outline: none;
+    font-size: 18px;
+    color: #FFF;
+    margin-bottom: 20px;
+}
+
+h1{
+    text-align: center;
+    font-size: 52px;
+    color: white;
+    margin-top: 14vw;
+}
+
+h3{
+    margin: 10px 0;
+    color: #FFF;
+    letter-spacing: 2px;
+    
+
+}
+
+.task{
+    width: 100%;
+    background: rgba(255, 255, 255, 0.397);
+    padding: 18px;
+    margin: 6px 0;
+    overflow: hidden;
+    color: snow;
+}
+
+.task i{
+    float: right;
+    margin-left: 20px;
+    cursor: pointer;
+    
+}
+
+#colorTrash{
+    color: rgba(243, 47, 47, 0.932);
+}
+
+#colorCheck{
+    color: rgba(0, 255, 0, 0.932);
+}
+
+.comp .task{
+    background: rgba(0, 255, 85, 0.562);
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Assets/checklist.png" type="image/x-icon" >
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>To-Do List</title>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>TO-DO LIST</h1>
+
+        <input type="text" class="textb"  placeholder="Adicione um lembrete">
+
+        <div class="notcomp">
+
+            <h3>NÃO COMPLETA</h3>
+
+        </div>
+
+
+       
+
+        
+
+
+        <div class="comp">
+
+            <h3>COMPLETA</h3>
+
+        
+
+
+
+        </div>
+
+
+       
+    </div>
+
+
+    <script type="text/javascript">
+        $(".textb").on("keyup", function(e){
+           //13 = siginifica o botão enter
+            if(e.keyCode==13 && $(".textb").val() != "")
+            {
+               var task =  $("<div class ='task'></div>").text($(".textb").val());
+               var del =   $("<i class ='fas fa-trash-alt' id = colorTrash></i>").click(function(){
+
+                //----Função de remover tarefa----   
+                var p = $(this).parent(); //retorna o elemento pai direto do elemento selecionado
+                p.fadeOut(function(){
+                    p.remove();
+                });
+
+               });
+
+               //----Função de Checar tarefa ----   
+               var check =  $("<i class ='fas fa-check' id = colorCheck></i>").click(function(){
+                   var p = $(this).parent();
+                   p.fadeOut(function(){
+                    $(".comp").append(p);
+                    p.fadeIn();
+                   });
+
+                   //----Removendo o icone de check----
+                   $(this).remove();
+
+               });
+
+               task.append(del,check)
+               $(".notcomp").append(task);
+               
+               //para Limpar a area do input quando adicionar tarefa
+               $(".textb").val("");
+            }
+        });
+
+    </script>
+    
+</body>
+</html>
