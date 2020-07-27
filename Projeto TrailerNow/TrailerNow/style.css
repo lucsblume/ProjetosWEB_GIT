@@ -39,7 +39,7 @@ header .toggle img{
     width: 100%;
     min-height: 100vh;/*a altura mínima da área de conteúdo de um elemento*/
     padding: 0 100px;
-    background:url("D:/Projetos Pessoais Web/Projeto TrailerNow/assets/bg.jpg");
+    background:url("../assets/bg.jpg");
     background-position: center;
     background-size: cover; /*deixa o background totalmente coberto*/
     display: flex;
@@ -142,7 +142,7 @@ text-decoration: none;
     left: calc(50% - 250px / 2);
     width: 250px;
     height: 150px;
-    background: url("D:/Projetos Pessoais Web/Projeto TrailerNow/assets/joker.png");
+    background: url("../assets/joker.png");
     background-size: cover;
     cursor: pointer;
     animation: animate 25s linear infinite; /* a cada 25 ele faz uma animação linear infinitamente*/

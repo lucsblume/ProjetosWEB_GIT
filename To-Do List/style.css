@@ -29,14 +29,14 @@ body{
     background: none;
     padding: 10px;
     outline: none;
-    font-size: 18px;
+    font-size: 20px;
     color: #FFF;
     margin-bottom: 20px;
 }
 
 h1{
     text-align: center;
-    font-size: 52px;
+    font-size: 54px;
     color: white;
     margin-top: 14vw;
 }
@@ -56,13 +56,15 @@ h3{
     margin: 6px 0;
     overflow: hidden;
     color: snow;
+    border-radius: 10px;
+    font-size: 16px;
 }
 
 .task i{
     float: right;
     margin-left: 20px;
     cursor: pointer;
-    
+    font-size: 16px;
 }
 
 #colorTrash{
@@ -75,4 +77,5 @@ h3{
 
 .comp .task{
     background: rgba(0, 255, 85, 0.562);
+    border-radius: 10px;
 }
