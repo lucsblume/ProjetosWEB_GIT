@@ -221,7 +221,7 @@ form.sign-up-form{
 }
 
 .image{
-    width: 100%;
+    width: 110%;
     transition: .9s .6s ease-in-out;
 }
 
@@ -332,7 +332,7 @@ form.sign-up-form{
     }
 
     .image{
-        width: 200px;
+        width: 280px;
         transition: 0.9s 0.6s ease-in-out;
     }
 
@@ -390,4 +390,7 @@ form.sign-up-form{
         bottom: 28%;
         left: 50%;
     }
+
+    
+
 }
