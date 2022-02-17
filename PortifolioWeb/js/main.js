@@ -1,4 +1,4 @@
-/*------------ MENU SHOW ------------*/
+﻿/*------------ MENU SHOW ------------*/
 const showMenu = (toggleId, navId) => { // Pegando os elementos pelo id
     const toggle = document.getElementById(toggleId),
     nav = document.getElementById(navId);
