@@ -133,11 +133,13 @@
     {
       max-width: 968px;
       margin: auto;
+      text-align: center;
     }
     .row 
     {
       display: flex;
       flex-wrap: wrap;
+      justify-content: center;
     }
     /*========== Reusable css classes ==========*/
     .section .container
@@ -155,6 +157,7 @@
     {
       padding-left: 15px;
       padding-right: 15px;
+     
     }
     /*========== Buttons ==========*/
     .btn 
@@ -1017,6 +1020,10 @@
       left: 0;
       z-index: 10;
       color: var(--color-primary);
+    }
+
+    #phoneNumber{
+      text-decoration: underline;
     }
     /*========== Footer ==========*/
     .footer 

@@ -1,0 +1,105 @@
+ ################# PRICING PLANS  #################
+ <section class="section pricing" id="pricing">
+            <div class="container">
+                <!-- section title -->
+                <h2 class="section-title padd-15">Pricing Plans</h2>
+                <div class="row">
+                    <!-- prices -->
+                    <div class="prices">
+                        <div class="price-item">
+                            <img src="assets/img/price-1.svg" alt="">
+                            <h3 class="plan">Basic</h3>
+                            <p>A Simple option but powerful to manage your business</p>
+                            <p>Email support</p>
+                            <h3 class="price"><em>$</em>9<span>Month</span></h3>
+                            <a href="#" class="btn btn-default">Get Started</a>
+                        </div>
+                    </div>
+                     <!-- prices -->
+                     <div class="prices">
+                        <div class="price-item best">
+                            <span class="badge">Recommended</span>
+                            <img src="assets/img/price-2.svg" alt="">
+                            <h3 class="plan">Premium</h3>
+                            <p>Unlimited product including app integration and more features</p>
+                            <p>Email support</p>
+                            <h3 class="price"><em>$</em>49<span>Month</span></h3>
+                            <a href="#" class="btn btn-default">Get Started</a>
+                        </div>
+                    </div>
+                     <!-- prices -->
+                     <div class="prices">
+                        <div class="price-item">
+                            <img src="assets/img/price-3.svg" alt="">
+                            <h3 class="plan">Basic</h3>
+                            <p>A wise option for large companies and individuals</p>
+                            <p>24/7 support</p>
+                            <h3 class="price"><em>$</em>99<span>Month</span></h3>
+                            <a href="#" class="btn btn-default">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+##################################################################
+
+ ################# FORMULÁRIO  #################
+<form action="" class="contact-form padd-15">
+                        <div class="contact-inputs">
+                            <!-- contact content -->
+                            <div class="contact-content">
+                                <input type="email" class="contact-input">
+                                <label for="" class="contact-label">Email</label>
+                                <span></span>
+                            </div>
+                            <!-- contact content -->
+                            <div class="contact-content">
+                                <input type="text" class="contact-input">
+                                <label for="" class="contact-label">Subject</label>
+                                <span></span>
+                            </div>
+                            <!-- contact content -->
+                            <div class="contact-content contact-area">
+                                <textarea name="" id="" cols="30" rows="10" class="contact-input"></textarea>
+                                <label for="" class="contact-label">Message</label>
+                                <span></span>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-default">Send Message</a>
+                    </form>
+
+##################################################################
+
+################# REVIEWS DOS CLIENTES  #################
+<section class="section">
+            <div class="container">
+                <!-- section title -->
+                <h2 class="section-title padd-15">Clients & Reviews</h2>
+                <!-- testimonial wrapper -->
+                <div class="swiper testimonial-wrapper">
+                    <div class="swiper-wrapper">
+                        <!-- testimonial item -->
+                        <div class="testimonial-item swiper-slide">
+                            <div class="thumb">
+                                <img src="assets/img/avatar-3.svg" alt="">
+                            </div>
+                            <h3>John Doe</h3>
+                            <span class="subtitle">Product designer at Dribble</span>
+                            <div class="comment">I enjoy working with the theme and learn so much. You guys make the process fun and interesting. Good luck! 👍</div>
+                        </div>
+                        <!-- testimonial item -->
+                        <div class="testimonial-item swiper-slide">
+                            <div class="thumb">
+                                <img src="assets/img/avatar-1.svg" alt="">
+                            </div>
+                            <h3>John Doe</h3>
+                            <span class="subtitle">Product designer at Dribble</span>
+                            <div class="comment">I enjoy working with the theme and learn so much. You guys make the process fun and interesting. Good luck! 🔥</div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+##################################################################
