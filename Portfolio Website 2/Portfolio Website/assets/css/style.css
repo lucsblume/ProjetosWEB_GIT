@@ -133,13 +133,13 @@
     {
       max-width: 968px;
       margin: auto;
-      text-align: center;
+      
     }
     .row 
     {
       display: flex;
       flex-wrap: wrap;
-      justify-content: center;
+      
     }
     /*========== Reusable css classes ==========*/
     .section .container
@@ -1343,6 +1343,8 @@
         padding: 1rem;
       }
     }
+
+    
     @media only screen and (max-width:320px)
     {
       .fact-item
@@ -1350,4 +1352,4 @@
         flex: 0 0 100%;
         max-width: 100%;
       }
-    }
+}
